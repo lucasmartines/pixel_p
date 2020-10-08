@@ -1,0 +1,20 @@
+
+
+.testimonial{
+    background: #D2D2D2;
+    padding-top: 56px;
+    padding-bottom: 69px;
+
+    .testimonial__item {
+        background: white;
+        border-left: 4px solid #DF9928;
+        padding: 30px 22px 24px 25px;
+
+    }
+    @media (max-width: 640px){
+        .testimonial__item:first-child {
+
+            margin-bottom: 20px;
+        }
+    }
+}

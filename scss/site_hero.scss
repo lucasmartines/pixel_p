@@ -1,0 +1,51 @@
+.site_hero{
+
+    color: #fff;
+    
+    min-height: 654px;
+    background-size: cover;
+    background-position-x: center;
+    
+
+    .site_hero__container{
+        
+        padding-bottom: 103px ;
+
+        
+
+        span{
+            padding-top: 270px;
+            position: relative;
+            display: block; 
+
+            text-align: center;
+            font-size: 22px ;
+            line-height: 22px;
+
+            &::after{
+                content: "";
+                position: relative;
+                display: block;
+                width: 50px;
+                height: 3px;
+                background: white;    
+                margin: 0 auto ;
+                margin-top: 17px;
+            }
+        }
+
+
+        .site_hero__title{
+            margin-top: 35px;
+            margin-bottom: 60px;
+            text-transform: uppercase;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .site_hero__cta{
+            font-size: 20px;
+        }
+
+
+    }
+}

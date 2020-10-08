@@ -1,0 +1,17 @@
+$background: #0C1923;
+
+.navba_site{
+    padding-top: 29px;
+    padding-bottom: 28px;
+
+    background: $background;
+
+    .menu{
+        justify-content: center;      
+        margin: 0 auto;  
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+}

@@ -1,0 +1,67 @@
+.footer{
+    padding-top: 98px;
+    padding-bottom: 30px;
+
+    background: #182C3B;
+
+
+    color:white;
+
+    .footer__title{
+
+        font-family: Roboto;
+        
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 114.19%;
+
+        padding-top:    15px;
+        padding-bottom: 25px;
+    }
+    .footer__logo{
+        margin-top: 80px;
+    }
+    .footer__title__span{
+
+        font-family: Roboto;
+        
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 114.19%;
+
+    }
+    .menu__footer{
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+
+        @media screen and (max-width: 518px) {
+            a{
+                font-size: 80%;
+                padding: 0 0.5rem;
+            }
+        }
+    }
+    .footer__form{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contact{
+        font-size: 20px;
+
+        @media screen and (max-width: 518px) {
+            a{
+                font-size: 70%;
+                padding: 0 0.5rem;
+                
+            }
+        }
+    }
+    ul{
+        li{
+            a{
+                color: #DF9928!important;
+            }
+        }
+    }
+} 
