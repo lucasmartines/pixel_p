@@ -23,29 +23,31 @@ $caminho = "http://localhost:8080/";
 
     <header class="top-bar site_header">
         <div class="grid-x site_header__container">
-            <div class="cell large-4 small-12 ">
-                <img src="<?= $caminho ?>/assets/logo_cred_consultoria.png" alt="">
+            <div class=" cell large-4 small-12 align-middle grid-x">
+                <a href="">
+                    <img style="width:initial" src="<?= $caminho ?>/assets/logo_cred_consultoria.png" alt="">
+                </a>
             </div>
-            <div class="cell site_header__contact large-2 large-offset-1 show-for-lage grid-x">
+            <div class="cell site_header__contact large-2  large-offset-1 grid-x">
                 <div class="icon icon--margin_right">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
-                <div class="number">
+                <div class="number ">
                     <a><span>(11) 3253-1297</span></a>
                     <a><span>(11) 91284-2368</span></a>
                 </div>
 
             </div>
-            <div class="cell large-4 site_header__email">
-                <a class="icon icon--margin_right">
+            <div class="cell large-4   site_header__email">
+                <a class="icon icon--margin_right ">
                     <i class="fa fa-envelope"></i>
                 </a>
                 <a class="email ">
                     contato@minhaempresa.com
                 </a>
             </div>
-            <div class="cell large-1 site_header__icons">
-                <a class="icon icon--margin_right">
+            <div class="cell large-1  site_header__icons">
+                <a class="icon icon--margin_right ">
                     <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
                 <a class="icon">
@@ -54,6 +56,36 @@ $caminho = "http://localhost:8080/";
             </div>
         </div>
     </header>
+
+    <nav class="navba_site hide-for-medium">
+
+        <div class="navbar_button_container align-right grid-x" data-responsive-toggle="menu-mobile" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="menu-mobile"></button>
+        </div>
+
+        <div id="menu-mobile">
+            <ul class="dropdown menu grid-x flex-dir-column"   data-dropdown-menu>
+                <li>
+                    <a href="#"> Início </a>
+                </li>
+                <li>
+                    <a href="#"> Sobre </a>
+                </li>
+
+                <li>
+                    <a href="#"> Soluções </a>
+                </li>
+
+                <li>
+                    <a href="#"> Novidades </a>
+                </li>
+
+                <li>
+                    <a href="#"> Contatos </a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
 
     <nav class="navba_site grid-x show-for-medium">
         <ul class="menu">

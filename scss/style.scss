@@ -84,7 +84,9 @@
         color: inherit;
         
         position: relative;
+        background-size: cover;
 
+        
         &.degrade::before{
             content: '';
             width: 100%;
@@ -94,7 +96,7 @@
             right: 0; top: 0;
             display:block;
             background: linear-gradient(358.74deg, rgba(0, 0, 0, 0.6) 0.69%, rgba(0, 0, 0, 0) 98.56%);
-
+            
         }
         .title{
             font-style: normal;
@@ -132,6 +134,15 @@
         padding-left: 10px;
     }
 }
+
+
+
+
+
+img{
+    width: 100%;
+}
+
 
 // .grid-margin-x{
 //     margin-left: 0!important;
